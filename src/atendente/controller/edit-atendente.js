@@ -3,8 +3,7 @@ $(document).ready(function() {
     $('#table-atendente').on('click', 'button.btn-edit', function(e) {
 
         e.preventDefault()
-
-        // Alterar as informações do modal para apresentação dos dados
+            // Alterar as informações do modal para apresentação dos dados
 
         $('.modal-title').empty()
         $('.modal-body').empty()

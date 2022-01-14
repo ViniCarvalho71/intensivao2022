@@ -6,7 +6,6 @@ $(document).ready(function() {
 
         // Criar uma variável local que receberá o link que tem de ser aberto
         let url = $(this).attr('href')
-        console.log(url)
 
         //Limpar a nossa div chamada content
         $('#content').empty()
